@@ -1,0 +1,48 @@
+{
+  "base": "https://codex-implement-approved-cop.shapiro-law-redesign-concept.pages.dev/",
+  "checks": [
+    {
+      "file": "index.html",
+      "width": 390,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "file": "about.html",
+      "width": 390,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "file": "contact.html",
+      "width": 390,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "file": "index.html",
+      "width": 1440,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "file": "about.html",
+      "width": 1440,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "file": "contact.html",
+      "width": 1440,
+      "overflow": false,
+      "broken": [],
+      "h1": 1
+    }
+  ],
+  "errors": []
+}

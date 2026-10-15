@@ -1,0 +1,15 @@
+{
+  "pages": 40,
+  "checks": 1563,
+  "passed": true,
+  "pending": [
+    "Actual back-cover photograph with spine, required from Jason; current front-cover mockup retained.",
+    "Jason\u2019s revised wording for the three featured case cards."
+  ],
+  "notes": [
+    "Exact client-supplied punctuation is retained in replacement passages.",
+    "Spanish main content is not rewritten without approved translation. Shared header/footer styling applies to both languages.",
+    "Preview contact form is not connected to production intake.",
+    "No meeting was scheduled or cancelled."
+  ]
+}

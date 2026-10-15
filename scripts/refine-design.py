@@ -180,3 +180,6 @@ for path in files:
 (ROOT/'docs/design-review').mkdir(parents=True,exist_ok=True)
 (ROOT/'docs/design-review/content-preservation.json').write_text(json.dumps(report,indent=2)+'\n')
 print(f'Refined {len(report)} pages; approved text preserved.')
+if (ROOT/'scripts/october-revisions.py').exists():
+    import runpy
+    runpy.run_path(str(ROOT/'scripts/october-revisions.py'))
