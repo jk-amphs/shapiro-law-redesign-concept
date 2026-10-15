@@ -1,0 +1,18 @@
+{
+  "base": "http://127.0.0.1:8135/",
+  "checks": [
+    "Mobile menu opens",
+    "Escape closes menu",
+    "Jason button opens individual Jason profile",
+    "Ernest button opens individual Ernest profile",
+    "View more opens complete 50-result page",
+    "First practice photo card opens scaffold detail",
+    "Consultation link reaches form",
+    "Mobile call destination preserved",
+    "Mobile WhatsApp destination preserved",
+    "Touch-phone consultation button opens the dialer instead of inert preview form",
+    "All 26 desktop/mobile comparison pairs load",
+    "Comparison supports stacked view",
+    "Comparison has no horizontal overflow"
+  ]
+}

@@ -1,0 +1,125 @@
+/* October 13 client review. Scoped layer; existing preview is a separate branch. */
+.october-revised { --october-rule:#b3c5d1; }
+.october-revised .client-header__inner { min-height:106px; padding-block:14px; gap:24px; }
+.october-revised :is(.client-logo,.client-footer__logo) { width:234px; }
+.october-revised .brand-wordmark__name { font-size:40px; }
+.october-revised .brand-wordmark__line { font-size:24.7px; width:0; min-width:100%; display:grid; grid-template-columns:100% max-content; align-items:baseline; }
+.october-revised .brand-wordmark__line small { position:static; font-size:9.4px; margin-left:1px; line-height:1; }
+.october-revised .client-header__contact { text-align:right; }
+.october-revised .client-header__actions { justify-content:flex-end; gap:7px; }
+.october-revised .client-header__actions .client-lang { margin-left:0; }
+.october-revised .client-header .client-social--whatsapp { display:flex; justify-content:flex-end; align-items:center; width:94px; padding:0 7px 0 26px; background-position:7px center; font-size:10px!important; color:#fff; text-transform:none; }
+.october-revised.client-home .client-hero { padding-top:114px; }
+.october-revised.october-home .client-hero__inner { display:grid; padding-block:52px 40px; min-height:660px; grid-template-columns:28% minmax(0,1fr) 17%; align-items:center; gap:20px; }
+.october-revised.october-home .client-hero__portrait { align-self:stretch; margin-left:-20px; }
+.october-revised.october-home .client-hero__copy { padding:0; width:100%; margin:0; }
+.october-revised.october-home .client-hero__copy h1 { font-size:clamp(32px,3.15vw,44px); }
+.october-revised.october-home .client-hero__led { font-size:11px; letter-spacing:.19em; font-weight:700; color:#99d9f8; margin:20px 0 6px; }
+.october-revised.october-home .client-hero__copy h2 { margin:0 0 10px; font-size:28px; }
+.october-revised.october-home .client-hero__credential { font-size:17px; line-height:1.5; margin:0 0 5px; }
+.october-revised.october-home .client-hero__author { font-size:15px; line-height:1.6; margin:0 0 14px; }
+.october-revised.october-home .client-hero__book { margin:0; width:100%; }
+.october-revised.october-home .client-hero__book img { width:100%; max-width:100%; }
+.october-revised.october-home .client-hero__copy > .client-btn { min-width:0; width:100%; }
+.october-revised.october-home .client-proof { padding-block:18px 28px; }
+.october-revised.october-home .client-proof__grid { width:min(1280px,100%); grid-template-columns:repeat(5,minmax(0,1fr)); }
+.october-revised.october-home .client-proof__item { padding:20px 14px; min-height:140px; gap:12px; }
+.october-revised.october-home .client-proof__item strong { font-size:30px; white-space:nowrap; }
+.october-revised.october-home .client-proof__item:nth-child(4) strong { font-size:20px; }
+.october-revised.october-home .client-proof__item span { font-size:13px; line-height:1.6; text-transform:none; letter-spacing:0; max-width:210px; }
+.october-revised.october-home .client-results__heading { display:block; }
+.october-revised.october-home .client-results__heading > div { max-width:100%; }
+.october-revised.october-home .client-results .client-intro { max-width:1020px; font-size:17px; }
+.october-revised.october-home .client-results__grid { grid-template-columns:repeat(3,minmax(0,1fr)); border:1px solid var(--october-rule); margin-top:32px; }
+.october-revised.october-home .client-result-card { padding:28px; min-height:220px; border:0; border-right:1px solid var(--october-rule); background:transparent; }
+.october-revised.october-home .client-result-card:last-child { border-right:0; }
+.october-revised.october-home .client-result-card__matter { font-size:12px; line-height:1.5; }
+.october-revised.october-home .client-result-card strong { font-size:clamp(32px,3vw,42px); margin:16px 0 12px; }
+.october-revised.october-home .client-result-card p { font-size:16px; line-height:1.7; }
+.october-revised.october-home .client-results > .client-shell > .client-text-link { margin-top:28px; font-size:14px; }
+.october-revised.october-home .client-legal-note { text-align:left; font-size:13px; line-height:1.6; margin-top:24px; }
+.october-revised.october-home :is(.client-practice,.client-firm,.client-attorneys) h2 { font-size:clamp(30px,3vw,42px); }
+.october-revised.october-home .client-practice .client-intro { font-size:18px; line-height:1.75; margin-bottom:32px; }
+.october-revised.october-home .client-practice__grid { grid-template-columns:repeat(5,minmax(0,1fr)); gap:18px; }
+.october-revised.october-home .client-practice-card { padding:0; display:flex; flex-direction:column; border:1px solid #2a475b; background:#102b3d; overflow:hidden; }
+.october-revised.october-home .client-practice-card img { width:100%; height:auto; aspect-ratio:4/3; object-fit:cover; }
+.october-revised.october-home .client-practice-card h3 { padding:22px 16px 26px; margin:0; font-size:21px; line-height:1.3; text-wrap:balance; }
+.october-revised.october-home .client-firm > .client-shell > p { max-width:940px; font-size:18px; }
+.october-revised .october-benefits { display:flex; flex-wrap:wrap; gap:18px 50px; list-style:disc outside; padding:22px 0 22px 24px; margin:20px 0; border-block:1px solid var(--october-rule); }
+.october-revised .october-benefits li { list-style:disc; font-size:19px; color:#203748; padding:0 8px; }
+.october-revised .october-benefits li::marker { color:#0877ac; }
+.october-revised.october-home .client-attorney-card { display:flex; flex-direction:column; }
+.october-revised.october-home .client-attorney-card .client-text-link { align-self:flex-start; margin-top:auto; padding-top:20px; font-size:12px; }
+.october-revised.october-home .client-book__inner { display:grid; grid-template-columns:minmax(0,1fr) 280px; gap:72px; align-items:center; }
+.october-revised.october-home .client-book__copy { grid-column:1; grid-row:1; }
+.october-revised.october-home .client-book__art { grid-column:2; grid-row:1; width:100%; }
+.october-revised.october-home .client-book__copy .client-eyebrow { color:#0877ac; font-size:11px; letter-spacing:.16em; margin:0 0 16px; }
+.october-revised .client-cta h5 { font-size:16px; text-transform:none; letter-spacing:.02em; }
+.october-revised .client-cta p { font-size:18px; }
+.october-revised .client-cta p strong { color:#fff; }
+.october-revised .client-footer__nav ul { grid-template-columns:1fr; gap:12px; }
+.october-revised .client-footer__legal { padding-top:24px; }
+.october-revised .client-footer__legal p { max-width:680px; font-size:13px; line-height:1.85; color:#aabac5; }
+.october-revised .client-inner-hero { padding-top:176px; }
+.october-revised .client-attorney-profile { scroll-margin-top:130px; }
+@media(max-width:1150px){
+ .october-revised .client-header__inner { gap:16px; }
+ .october-revised .client-header nav ul { gap:18px; }
+ .october-revised.october-home .client-practice__grid { grid-template-columns:repeat(3,minmax(0,1fr)); }
+ .october-revised.october-home .client-hero__inner { grid-template-columns:26% minmax(0,1fr) 16%; }
+ .october-revised.october-home .client-hero__portrait img { width:320px; }
+}
+@media(max-width:992px){
+ .october-revised.client-home .client-hero { padding-top:105px; }
+ .october-revised .client-header__inner { min-height:104px; }
+ .october-revised .client-mobile-socials { display:flex; gap:6px; }
+ .october-revised .client-mobile-socials .client-social--whatsapp { width:92px; }
+ .october-revised .client-mobile-socials .lang-pill-mobile { width:54px; }
+ .october-revised.october-home .client-hero__inner { grid-template-columns:28% minmax(0,1fr); min-height:0; padding-block:44px; }
+ .october-revised.october-home .client-hero__portrait { position:relative; inset:auto; grid-column:1; grid-row:1/3; width:100%; height:auto; min-height:450px; }
+ .october-revised.october-home .client-hero__portrait img { left:50%; transform:translateX(-50%); width:310px; max-width:none; }
+ .october-revised.october-home .client-hero__copy { grid-column:2; grid-row:1; }
+ .october-revised.october-home .client-hero__book { position:static; grid-column:2; grid-row:2; width:130px; justify-self:center; }
+ .october-revised.october-home .client-proof__grid { grid-template-columns:repeat(3,minmax(0,1fr)); }
+ .october-revised.october-home .client-result-card { padding:22px; }
+}
+@media(max-width:680px){
+ .october-revised.client-home .client-hero { padding-top:124px; }
+ .october-revised .client-header__inner { display:grid; grid-template-columns:minmax(0,1fr) 40px; gap:10px; padding-block:12px; }
+ .october-revised :is(.client-logo,.client-footer__logo) { width:194px; }
+ .october-revised .brand-wordmark__name { font-size:33px; }
+ .october-revised .brand-wordmark__line { font-size:20.4px; }
+ .october-revised .brand-wordmark__line small { font-size:8.2px; }
+ .october-revised .mobile-header-controls { display:contents; }
+ .october-revised .client-mobile-socials { grid-column:1/-1; grid-row:2; justify-content:flex-end; }
+ .october-revised .nav-toggle { grid-column:2; grid-row:1; }
+ .october-revised.october-home .client-hero { min-height:0; }
+ .october-revised.october-home .client-hero__inner { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:8px 14px; padding-block:30px 38px; }
+ .october-revised.october-home .client-hero__copy { display:contents; }
+ .october-revised.october-home .client-hero__copy h1 { grid-row:1; grid-column:1/-1; font-size:30px; margin-bottom:24px; }
+ .october-revised.october-home .client-hero__portrait { grid-column:1; grid-row:2/7; margin:0; min-height:300px; }
+ .october-revised.october-home .client-hero__portrait img { width:250px; }
+ .october-revised.october-home .client-hero__led { grid-column:2; grid-row:2; margin:0; font-size:10px; }
+ .october-revised.october-home .client-hero__copy h2 { grid-column:2; grid-row:3; font-size:23px; margin:0; }
+ .october-revised.october-home .client-hero__credential { grid-column:2; grid-row:4; font-size:14px; margin:0; }
+ .october-revised.october-home .client-hero__author { grid-column:2; grid-row:5; font-size:13px; margin:0; }
+ .october-revised.october-home .client-hero__book { grid-column:2; grid-row:6; width:100px; margin:12px auto; }
+ .october-revised.october-home .client-hero__description { grid-column:1/-1; grid-row:7; margin:16px 0 8px; }
+ .october-revised.october-home .client-hero__copy .client-hero__promises { grid-column:1/-1; grid-row:8; margin:12px 0; }
+ .october-revised.october-home .client-hero__copy > .client-btn { grid-column:1/-1; grid-row:9; }
+ .october-revised.october-home .client-proof__grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+ .october-revised.october-home .client-proof__item:last-child { grid-column:1/-1; }
+ .october-revised.october-home .client-proof__item { min-height:130px; padding:20px 12px; }
+ .october-revised.october-home .client-proof__item:nth-child(4) strong { font-size:18px; }
+ .october-revised.october-home .client-results__grid { grid-template-columns:1fr; grid-auto-rows:1fr; }
+ .october-revised.october-home .client-result-card { min-height:0; padding:26px; border:0; border-bottom:1px solid var(--october-rule); }
+ .october-revised.october-home .client-result-card:last-child { border:0; }
+ .october-revised.october-home .client-practice__grid { grid-template-columns:1fr; gap:20px; }
+ .october-revised.october-home .client-practice-card img { aspect-ratio:16/9; }
+ .october-revised.october-home .client-practice-card h3 { font-size:24px; padding:22px; }
+ .october-revised .october-benefits { display:grid; gap:14px; }
+ .october-revised.october-home .client-book__inner { grid-template-columns:1fr; gap:30px; }
+ .october-revised.october-home .client-book__copy { grid-column:1; grid-row:1; }
+ .october-revised.october-home .client-book__art { grid-column:1; grid-row:2; max-width:230px; margin:auto; }
+ .october-revised .client-inner-hero { padding-top:190px; }
+}
